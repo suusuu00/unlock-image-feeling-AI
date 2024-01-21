@@ -13,6 +13,10 @@
 # file = input("동영상 경로명을 입력하세요 : ")
 path = "image folder"
 ```
+- 윈도우 운영체제인 경우 그래프의 한글이 깨질 수 있습니다. 'AppleGothic'을 'Malgun Gothic'로 수정해주세요. 그래도 한글이 깨진다면 컴퓨터에 설치된 한글 폰트체를 직접 찾아 수정해야합니다.
+```python
+plt.rcParams['font.family'] = 'Malgun Gothic'
+```
 
 ## Data 출처
 AIHub 한국인 감정인식을 위한 복합 영상 (링크 : https://www.aihub.or.kr/mypage/reqst/datareqst/view.do?currMenu=157&topMenu=106&dataReqstSn=364151)
